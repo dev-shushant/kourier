@@ -40,7 +40,7 @@ Capture requests and responses, inspect failures, analyze timings, mask sensitiv
 
 - **Distribution repository:** https://github.com/dev-shushant/kourier
 - **Source repository:** https://github.com/dev-shushant/kourier-kmp
-- **Current release:** `0.0.3`
+- **Current release:** `0.0.1`
 
 ---
 
