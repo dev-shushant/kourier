@@ -1,12 +1,12 @@
 # Kourier 🚀
 
-[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-3DDC84.svg?style=flat-square&logo=android)](https://github.com/shushant-ibm/kourier)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-3DDC84.svg?style=flat-square&logo=android)](https://github.com/dev-shushant/kourier)
 [![Kotlin](https://img.shields.io/badge/Kotlin-Multiplatform-7F52FF.svg?style=flat-square&logo=kotlin)](https://kotlinlang.org)
 [![Compose Multiplatform](https://img.shields.io/badge/Compose-Multiplatform-4285F4.svg?style=flat-square&logo=jetpackcompose)](https://www.jetbrains.com/lp/compose-multiplatform/)
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-FA7343.svg?style=flat-square&logo=swift)](https://swift.org/package-manager/)
-[![Maven Public Repo](https://img.shields.io/badge/Maven-Public%20Repo-brightgreen.svg?style=flat-square&logo=apachemaven)](https://raw.githubusercontent.com/shushant-ibm/kourier/mvn-repo)
-[![Release](https://img.shields.io/github/v/release/shushant-ibm/kourier?style=flat-square)](https://github.com/shushant-ibm/kourier/releases)
-[![Stars](https://img.shields.io/github/stars/shushant-ibm/kourier?style=flat-square)](https://github.com/shushant-ibm/kourier/stargazers)
+[![Maven Public Repo](https://img.shields.io/badge/Maven-Public%20Repo-brightgreen.svg?style=flat-square&logo=apachemaven)](https://raw.githubusercontent.com/dev-shushant/kourier/mvn-repo)
+[![Release](https://img.shields.io/github/v/release/dev-shushant/kourier?style=flat-square)](https://github.com/dev-shushant/kourier/releases)
+[![Stars](https://img.shields.io/github/stars/dev-shushant/kourier?style=flat-square)](https://github.com/dev-shushant/kourier/stargazers)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
 
 ## Inspect Android & iOS network traffic directly on the device
@@ -96,7 +96,7 @@ dependencyResolutionManagement {
 
         maven {
             url = uri(
-                "https://raw.githubusercontent.com/shushant-ibm/kourier/mvn-repo"
+                "https://raw.githubusercontent.com/dev-shushant/kourier/mvn-repo"
             )
         }
     }
@@ -255,10 +255,10 @@ In Xcode:
 Enter:
 
 ```text
-https://github.com/shushant-ibm/kourier.git
+https://github.com/dev-shushant/kourier.git
 ```
 
-Select version `0.0.3` or an appropriate compatible version rule.
+Select version `0.0.1` or an appropriate compatible version rule.
 
 Add the `KourierIos` package product to your application target.
 
@@ -268,7 +268,7 @@ Or declare it in `Package.swift`:
 dependencies: [
 
     .package(
-        url: "https://github.com/shushant-ibm/kourier.git",
+        url: "https://github.com/dev-shushant/kourier.git",
         from: "0.0.3"
     )
 ]
@@ -1175,7 +1175,7 @@ toward:
 
 Have a debugging scenario you think Kourier should detect?
 
-[Open an issue](https://github.com/shushant-ibm/kourier/issues) and describe the problem.
+[Open an issue](https://github.com/dev-shushant/kourier/issues) and describe the problem.
 
 ---
 
@@ -1268,9 +1268,9 @@ Useful ways to contribute:
 
 ### Links
 
-- [Report a bug or request a feature](https://github.com/shushant-ibm/kourier/issues)
-- [Browse releases](https://github.com/shushant-ibm/kourier/releases)
-- [Explore the source repository](https://github.com/shushant-ibm/kourier-kmp)
+- [Report a bug or request a feature](https://github.com/dev-shushant/kourier/issues)
+- [Browse releases](https://github.com/dev-shushant/kourier/releases)
+- [Explore the source repository](https://github.com/dev-shushant/kourier-kmp)
 
 If Kourier saves you debugging time, consider **starring the repository** ⭐
 
