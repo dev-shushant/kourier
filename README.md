@@ -15,7 +15,7 @@
 
 Capture requests and responses, inspect failures, analyze timings, mask sensitive data, and export diagnostics as **HAR, cURL, plain text, or detailed reports** — directly from the device where the issue happened.
 
-<img width="1774" height="887" alt="Kourier on-device network inspector" src="<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/98495fb8-106a-44a9-978d-62762d4d6891" />
+![Kourier on-device network inspector](https://github.com/user-attachments/assets/98495fb8-106a-44a9-978d-62762d4d6891)
 
 <p align="center">
   <strong>Capture · Inspect · Debug · Share</strong><br/>
