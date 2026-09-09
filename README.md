@@ -38,7 +38,8 @@ Capture requests and responses, inspect failures, analyze timings, mask sensitiv
 
 > Built for mobile developers and QA teams who need the exact network context from the device where an issue was reproduced.
 
-- **Distribution repository:** https://github.com/shushant-ibm/kourier
+- **Distribution repository:** https://github.com/dev-shushant/kourier
+- **Source repository:** https://github.com/dev-shushant/kourier-kmp
 - **Current release:** `0.0.3`
 
 ---
