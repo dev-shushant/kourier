@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-noop/0.0.1/kourier-noop-0.0.1.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-noop",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-noop.aar",
+          "url": "kourier-noop-android-0.0.1.aar",
+          "size": 12209,
+          "sha512": "42acabf381a80f2a469b4332405466eb03ed26fb53f572358e94d59a2fd155e9a897698f939c1240a408093be87cfdf6c7251d2cb3c9158d3aba16bd427c9a1c",
+          "sha256": "6c13437753de770d0a1746b24b8be931db61b8674006f98d48a0a4952f41fe68",
+          "sha1": "4d571b5307ee29ae31e80226fd58322da67e9d52",
+          "md5": "5c0e0ca9cc907a3cd2c30c71eb7d9565"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-noop.aar",
+          "url": "kourier-noop-android-0.0.1.aar",
+          "size": 12209,
+          "sha512": "42acabf381a80f2a469b4332405466eb03ed26fb53f572358e94d59a2fd155e9a897698f939c1240a408093be87cfdf6c7251d2cb3c9158d3aba16bd427c9a1c",
+          "sha256": "6c13437753de770d0a1746b24b8be931db61b8674006f98d48a0a4952f41fe68",
+          "sha1": "4d571b5307ee29ae31e80226fd58322da67e9d52",
+          "md5": "5c0e0ca9cc907a3cd2c30c71eb7d9565"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "kourier-noop-android-0.0.1-sources.jar",
+          "url": "kourier-noop-android-0.0.1-sources.jar",
+          "size": 5137,
+          "sha512": "0fadb178dcc5bf400c0cea01b52f111241892b83217d29fa87c0d6e62ccc4df0a94155523a0f168931c1836f39e9510b16e788d348f5669cf1f24ac87ad32b8c",
+          "sha256": "4b396d2ec17fa893529616777430a4e8cf3d61e6edae8519a086a0476287b536",
+          "sha1": "95a670b538cb85e038e6d1aae6db541789d65c21",
+          "md5": "3f29904d03b5d89051f4acf1ef7a3368"
+        }
+      ]
+    }
+  ]
+}

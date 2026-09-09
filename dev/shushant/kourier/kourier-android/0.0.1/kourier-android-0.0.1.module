@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.shushant.kourier",
+    "module": "kourier-android",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-interceptor-okhttp",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-interceptor-ktor",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-android-0.0.1.aar",
+          "url": "kourier-android-0.0.1.aar",
+          "size": 95808,
+          "sha512": "9e4e1637457d2997bf8fa26bdc5fc82c4afcfff049bb941f60a44dc66c16b6ed6e00f56ee2db167aa30693e2081787fddf62044e549c9046ca0b59349acd7aea",
+          "sha256": "17d2efa34b97599e8bd7f5676f0108e6b27347065d4eab210e79dd9a898ddbf7",
+          "sha1": "cdb0306d017d4e28a73e41b2847fd7e8f3e8dc81",
+          "md5": "4029796f93ea7acd06a7a14344350bdd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-storage",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-ui",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.6.8"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-interceptor-okhttp",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-interceptor-ktor",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-android-0.0.1.aar",
+          "url": "kourier-android-0.0.1.aar",
+          "size": 95808,
+          "sha512": "9e4e1637457d2997bf8fa26bdc5fc82c4afcfff049bb941f60a44dc66c16b6ed6e00f56ee2db167aa30693e2081787fddf62044e549c9046ca0b59349acd7aea",
+          "sha256": "17d2efa34b97599e8bd7f5676f0108e6b27347065d4eab210e79dd9a898ddbf7",
+          "sha1": "cdb0306d017d4e28a73e41b2847fd7e8f3e8dc81",
+          "md5": "4029796f93ea7acd06a7a14344350bdd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kourier-android-0.0.1-sources.jar",
+          "url": "kourier-android-0.0.1-sources.jar",
+          "size": 4827,
+          "sha512": "8007f6da3a07440b7faabb00a41c8b80e429b4ece2ddf0a4bf56396bac892fcc35de70ab676e160fa650309a8d617707cab6f14a0ef11d398b4f23aa65131b5e",
+          "sha256": "19b97782b40062720d4b113b410a228ca01429e93ba478170984e6b6b0ca9298",
+          "sha1": "d1554ac9caee724ed0242882e1520dc8dbcab43f",
+          "md5": "ba088828cc96df7974ccc89eea401280"
+        }
+      ]
+    }
+  ]
+}

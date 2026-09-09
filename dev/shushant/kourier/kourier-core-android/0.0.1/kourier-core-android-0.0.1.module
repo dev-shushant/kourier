@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-core/0.0.1/kourier-core-0.0.1.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-core",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-core.aar",
+          "url": "kourier-core-android-0.0.1.aar",
+          "size": 217762,
+          "sha512": "8e8ffb2a93434ee127517a4d0b63896fb39479754812243f58f0b50bd3f730cd9809d3d58929cba21aca945d9cac6533f6752a43cb07a4a45b27f5e24a32a69d",
+          "sha256": "6536f5b6b3aeff9162203743ece59b276336644a9a7a07e15d33ae30a997920b",
+          "sha1": "50e0019f5bd353df4f6f02fa2b36041c6dfc0219",
+          "md5": "76c1cb671f0889e1676ce5c4d56563e2"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-core.aar",
+          "url": "kourier-core-android-0.0.1.aar",
+          "size": 217762,
+          "sha512": "8e8ffb2a93434ee127517a4d0b63896fb39479754812243f58f0b50bd3f730cd9809d3d58929cba21aca945d9cac6533f6752a43cb07a4a45b27f5e24a32a69d",
+          "sha256": "6536f5b6b3aeff9162203743ece59b276336644a9a7a07e15d33ae30a997920b",
+          "sha1": "50e0019f5bd353df4f6f02fa2b36041c6dfc0219",
+          "md5": "76c1cb671f0889e1676ce5c4d56563e2"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "kourier-core-android-0.0.1-sources.jar",
+          "url": "kourier-core-android-0.0.1-sources.jar",
+          "size": 21916,
+          "sha512": "bb0087d4f83b8b0262770d657ce17820a711794684330d24a869abcaca2a799206f14f5fa2cd59caf35857f18b7f88117ab01b2c68c02898f71f7890935cb3b4",
+          "sha256": "b951a89410449ddc9f48b754420ce47b970f51ed438ae2e608d04dbc4585da3a",
+          "sha1": "351c2f11e8ecd64dc5e0a20f19278b59ba3b6e0b",
+          "md5": "748a784a2e1788deb29db35dec3a72e3"
+        }
+      ]
+    }
+  ]
+}

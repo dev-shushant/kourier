@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>dev.shushant.kourier</groupId>
+  <artifactId>kourier-android</artifactId>
+  <version>0.0.1</version>
+  <packaging>aar</packaging>
+  <name>kourier-android</name>
+  <description>Kourier - Enterprise Network Inspection SDK for Android &amp; iOS</description>
+  <url>https://github.com/dev-shushant/kourier</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shushant</id>
+      <name>Shushant Tiwari</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/dev-shushant/kourier.git</connection>
+    <developerConnection>scm:git:ssh://github.com:dev-shushant/kourier.git</developerConnection>
+    <url>https://github.com/dev-shushant/kourier</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>dev.shushant.kourier</groupId>
+      <artifactId>kourier-core</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.shushant.kourier</groupId>
+      <artifactId>kourier-interceptor-okhttp</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.shushant.kourier</groupId>
+      <artifactId>kourier-interceptor-ktor</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.4.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.shushant.kourier</groupId>
+      <artifactId>kourier-storage</artifactId>
+      <version>0.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>dev.shushant.kourier</groupId>
+      <artifactId>kourier-ui</artifactId>
+      <version>0.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlinx</groupId>
+      <artifactId>kotlinx-coroutines-android</artifactId>
+      <version>1.11.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.runtime</groupId>
+      <artifactId>runtime</artifactId>
+      <version>1.6.8</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.compose.ui</groupId>
+      <artifactId>ui</artifactId>
+      <version>1.6.8</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

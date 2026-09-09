@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-storage/0.0.1/kourier-storage-0.0.1.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-storage",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-storage.aar",
+          "url": "kourier-storage-android-0.0.1.aar",
+          "size": 69631,
+          "sha512": "8af5b843ae76c05e85bb29b52e4490e682f4cc5e826c3dfbbe369e3cd80166e3566e238aca9bc5b1e5e0a4bfdc66c6dee8eb3f9feaa454dbd9551ebd9384d19b",
+          "sha256": "11bb6c8a4befe34374a73f0d7a891f86962c1f4b6cd71ff046de35dbdd2471c8",
+          "sha1": "b17c256f210d5cfdeb7fe9222b8164ea8170e3d9",
+          "md5": "f054f67f2f3b29f03a784fd7ac16b895"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "android-driver",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.3.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "coroutines-extensions",
+          "version": {
+            "requires": "2.3.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-storage.aar",
+          "url": "kourier-storage-android-0.0.1.aar",
+          "size": 69631,
+          "sha512": "8af5b843ae76c05e85bb29b52e4490e682f4cc5e826c3dfbbe369e3cd80166e3566e238aca9bc5b1e5e0a4bfdc66c6dee8eb3f9feaa454dbd9551ebd9384d19b",
+          "sha256": "11bb6c8a4befe34374a73f0d7a891f86962c1f4b6cd71ff046de35dbdd2471c8",
+          "sha1": "b17c256f210d5cfdeb7fe9222b8164ea8170e3d9",
+          "md5": "f054f67f2f3b29f03a784fd7ac16b895"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "kourier-storage-android-0.0.1-sources.jar",
+          "url": "kourier-storage-android-0.0.1-sources.jar",
+          "size": 9112,
+          "sha512": "3893ca79c257b6c8338921a5cb9ef72e0279687b3296deb8d420cffff25ffb31e1363a6645af8e72936a8a91d916a13d6b1f0c057169b0e9f1d7832d69a075bf",
+          "sha256": "d59c9642a560709758acf3e245c79db230d8e318eae8a93f07a2f4ba9b72a2dd",
+          "sha1": "3b505bb3a062315f8a99f0e281ea3b5d4f281512",
+          "md5": "3c7118e6fef929f932b6cf2f153daa4a"
+        }
+      ]
+    }
+  ]
+}
