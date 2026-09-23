@@ -13,7 +13,7 @@
 
 **Kourier is an on-device HTTP/HTTPS network inspector for Android and iOS, built with Kotlin Multiplatform and Compose Multiplatform.**
 
-Capture requests and responses, inspect failures, analyze timings, mask sensitive data, and export diagnostics as **HAR, cURL, plain text, or detailed reports** — directly from the device where the issue happened.
+Capture requests and responses, inspect failures, analyze timings, mask sensitive data, and export diagnostics as **HAR, cURL, plain text, or detailed reports** — directly from the device where the [...]
 
 ![Kourier on-device network inspector](https://github.com/user-attachments/assets/98495fb8-106a-44a9-978d-62762d4d6891)
 
@@ -70,7 +70,7 @@ But the useful debugging questions are much more specific:
 
 Kourier keeps that debugging loop on-device.
 
-Instead of requiring the person reproducing the issue to set up a separate desktop debugging environment, Kourier captures traffic at the application's networking layer and exposes it directly inside the app.
+Instead of requiring the person reproducing the issue to set up a separate desktop debugging environment, Kourier captures traffic at the application's networking layer and exposes it directly inside [...]
 
 ### At a glance
 
@@ -1206,7 +1206,7 @@ I wrote a detailed engineering article covering:
 
 ### Read the Medium article
 
-[**Building Kourier: An Enterprise-Grade On-Device Network Inspector for Android & iOS with Kotlin Multiplatform**](https://medium.com/@shushanttiwari.ashu/building-kourier-an-enterprise-grade-on-device-network-inspector-for-android-ios-with-kotlin-51a58254197a)
+[**Building Kourier: An Enterprise-Grade On-Device Network Inspector for Android & iOS with Kotlin Multiplatform**](https://medium.com/@shushanttiwari.ashu/building-kourier-an-enterprise-grade-on-devi[...])
 
 ---
 
