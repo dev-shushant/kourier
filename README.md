@@ -26,7 +26,7 @@ Capture requests and responses, inspect failures, analyze timings, mask sensitiv
 
 <p align="center">
   <img
-    src="Kourier_GitHub_Demo.gif"
+    src="kourier_landscape_showcase.mp4"
     alt="Kourier on-device network inspector demo showing live traffic, error inspection, floating bubble, call-stack tracing and HAR/cURL export"
     width="100%"
   />
