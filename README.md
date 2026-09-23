@@ -25,11 +25,19 @@ Capture requests and responses, inspect failures, analyze timings, mask sensitiv
 ## See Kourier in Action
 
 <p align="center">
-  <img
-    src="kourier_landscape_showcase.mp4"
-    alt="Kourier on-device network inspector demo showing live traffic, error inspection, floating bubble, call-stack tracing and HAR/cURL export"
+  <video
+    src="https://github.com/dev-shushant/kourier/raw/main/kourier_landscape_showcase.mp4"
+    controls
+    autoplay
+    muted
+    loop
+    playsinline
     width="100%"
-  />
+  >
+    <a href="https://github.com/dev-shushant/kourier/blob/main/kourier_landscape_showcase.mp4">
+      Watch the Kourier demo video
+    </a>
+  </video>
 </p>
 
 <p align="center">
