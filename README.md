@@ -13,7 +13,7 @@
 
 **Kourier is an on-device HTTP/HTTPS network inspector for Android and iOS, built with Kotlin Multiplatform and Compose Multiplatform.**
 
-Capture requests and responses, inspect failures, analyze timings, mask sensitive data, and export diagnostics as **HAR, cURL, plain text, or detailed reports** — directly from the device where the [...]
+Capture requests and responses, inspect failures, analyze timings, mask sensitive data, and export diagnostics as **HAR, cURL, plain text, or detailed reports** — directly from the device where the issue occurs.
 
 ![Kourier on-device network inspector](https://github.com/user-attachments/assets/98495fb8-106a-44a9-978d-62762d4d6891)
 
@@ -48,7 +48,8 @@ Capture requests and responses, inspect failures, analyze timings, mask sensitiv
 
 - **Distribution repository:** https://github.com/dev-shushant/kourier
 - **Source repository:** https://github.com/dev-shushant/kourier-kmp
-- **Current release:** `0.0.1`
+- **Current release:** [`v0.0.1`](https://github.com/dev-shushant/kourier/releases/tag/v0.0.1)
+- **Distribution:** Public Maven repository hosted on GitHub and Swift Package Manager. The examples below use published version `0.0.1`.
 
 ---
 
@@ -70,7 +71,7 @@ But the useful debugging questions are much more specific:
 
 Kourier keeps that debugging loop on-device.
 
-Instead of requiring the person reproducing the issue to set up a separate desktop debugging environment, Kourier captures traffic at the application's networking layer and exposes it directly inside [...]
+Kourier captures traffic through the host application's configured network integrations and exposes it in an on-device inspector.
 
 ### At a glance
 
@@ -122,12 +123,12 @@ dependencies {
 
     // Development / debug builds
     debugImplementation(
-        "dev.shushant.kourier:kourier-android:0.0.3"
+        "dev.shushant.kourier:kourier-android:0.0.1"
     )
 
     // Release builds
     releaseImplementation(
-        "dev.shushant.kourier:kourier-noop:0.0.3"
+        "dev.shushant.kourier:kourier-noop:0.0.1"
     )
 }
 ```
@@ -277,7 +278,7 @@ dependencies: [
 
     .package(
         url: "https://github.com/dev-shushant/kourier.git",
-        from: "0.0.3"
+        from: "0.0.1"
     )
 ]
 ```
@@ -1055,11 +1056,11 @@ Kourier provides an API-compatible Android no-op artifact:
 dependencies {
 
     debugImplementation(
-        "dev.shushant.kourier:kourier-android:0.0.3"
+        "dev.shushant.kourier:kourier-android:0.0.1"
     )
 
     releaseImplementation(
-        "dev.shushant.kourier:kourier-noop:0.0.3"
+        "dev.shushant.kourier:kourier-noop:0.0.1"
     )
 }
 ```
@@ -1204,9 +1205,9 @@ I wrote a detailed engineering article covering:
 - release separation
 - lessons from building a reusable cross-platform SDK
 
-### Read the Medium article
+### Engineering articles
 
-[**Building Kourier: An Enterprise-Grade On-Device Network Inspector for Android & iOS with Kotlin Multiplatform**](https://medium.com/@shushanttiwari.ashu/building-kourier-an-enterprise-grade-on-devi[...])
+[Read Shushant’s engineering articles on Medium](https://medium.com/@shushanttiwari.ashu/).
 
 ---
 
