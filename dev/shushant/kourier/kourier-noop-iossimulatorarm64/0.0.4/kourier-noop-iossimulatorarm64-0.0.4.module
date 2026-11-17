@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-noop/0.0.4/kourier-noop-0.0.4.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-noop",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-noop-iosSimulatorArm64Main-0.0.4.klib",
+          "url": "kourier-noop-iossimulatorarm64-0.0.4.klib",
+          "size": 15752,
+          "sha512": "18ee02c916523f7d8fb916e6de4a18fc5cca6aa5990ca462aff59307f609df18728f9117fa9eb1f046f96e319bee822fcbde2730d0d4ca1f0bc48d19c5c126be",
+          "sha256": "cff3a72ed4270b84b00da5f147ab7d17528d5e5aa4ea7ca2e29f251c3c630922",
+          "sha1": "08679de64474e12ca770f389fb532b20e19993c9",
+          "md5": "7c55d41f457aa68630120a052093f08b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kourier-noop-iossimulatorarm64-0.0.4-sources.jar",
+          "url": "kourier-noop-iossimulatorarm64-0.0.4-sources.jar",
+          "size": 5477,
+          "sha512": "0936ab5ba79b7e349385e3e052796f50fab22b234e7249ceac21c106968da1c8ddd1283d517e989a012685d5329ee1fdb41b552a3caf78d83c31d4fdf4a9bfcb",
+          "sha256": "786634e55c64fb032848e0651d7b78b499e0b9cba51accf4277424aefc45b128",
+          "sha1": "7fdd1d4c52d2b7f0aa369dc00462663c86c18aed",
+          "md5": "79420f4c477e95c04a398c32a840b63b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-noop-iossimulatorarm64-0.0.4-metadata.jar",
+          "url": "kourier-noop-iossimulatorarm64-0.0.4-metadata.jar",
+          "size": 4389,
+          "sha512": "6dadb57ae80497e3790ea2fcfb3bdc8c448a8660cbd7aafeca90f985e5962fd2fbb43fb24af8863f09edeb5eb51b1f79b36caf572e9cd25a10df811c2f6219fd",
+          "sha256": "9d4718304c81fe919595dd123e2740d9183e0701f596994652a250944f59b2c6",
+          "sha1": "3dadd28a752ed06062fcb2c578335b0412e1df4b",
+          "md5": "fb9c2b35f2369911976d7969369ccc1a"
+        }
+      ]
+    }
+  ]
+}

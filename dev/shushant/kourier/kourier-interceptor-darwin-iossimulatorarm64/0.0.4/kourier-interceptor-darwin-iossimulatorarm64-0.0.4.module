@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-interceptor-darwin/0.0.4/kourier-interceptor-darwin-0.0.4.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-interceptor-darwin",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-interceptor-darwin-iosSimulatorArm64Main-0.0.4.klib",
+          "url": "kourier-interceptor-darwin-iossimulatorarm64-0.0.4.klib",
+          "size": 26725,
+          "sha512": "744b393f4322e1d8c8eff0d0b03647bf1d44bb4f7cf165e35d20a8c59deda8714f17330ff65892dbf72d43e4b77265c573add4370957766f067c96933232f3be",
+          "sha256": "4bd4b12eec1710b8c385af7873c19ac44a72e13534d2bd5c82f62c45b921be4f",
+          "sha1": "e0e56cc5ee9ad94ad59c1a4ce0f7f896d195e105",
+          "md5": "8d7cafecf9cb994ab00f42c527db2bfa"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kourier-interceptor-darwin-iossimulatorarm64-0.0.4-sources.jar",
+          "url": "kourier-interceptor-darwin-iossimulatorarm64-0.0.4-sources.jar",
+          "size": 5403,
+          "sha512": "1bf2bc7348c85b781bd4aa85f179ca6793edf96fc5bae02d31ebc12f7d60b5d1197ebe8cffcf04901200206b06ccad12a7b6a369fda725f2cf0e90557211c372",
+          "sha256": "0d155fb80ba1754d0d7dfa273ba1b2f142be4718745ea952e321b4072ddd2ffc",
+          "sha1": "ae30fd3eb917263406e1f8a5d251f78a63bd8507",
+          "md5": "f7ccf28138aa948ee03437797ae97364"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-interceptor-darwin-iossimulatorarm64-0.0.4-metadata.jar",
+          "url": "kourier-interceptor-darwin-iossimulatorarm64-0.0.4-metadata.jar",
+          "size": 4036,
+          "sha512": "28afc41c95632fb3ae812c8ae02879ff92b19375fe38853a8cb76b2eeab094585a985fa9f9b4d9355a978aaa531c4678e4f142bab0901c6f4e6143d6a1ad6a5e",
+          "sha256": "e8e2288c25c26264b8849cba0c988ea52c568bb362fb96eb56f8c9cb1ea68884",
+          "sha1": "b74a8d316f0ecfd9e61c21b9eec1b30a47a223f2",
+          "md5": "d255f13ab7c089cdf91db12a7b1b5d22"
+        }
+      ]
+    }
+  ]
+}

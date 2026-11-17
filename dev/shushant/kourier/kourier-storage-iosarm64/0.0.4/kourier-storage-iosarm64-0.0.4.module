@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-storage/0.0.4/kourier-storage-0.0.4.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-storage",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "coroutines-extensions",
+          "version": {
+            "requires": "2.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-storage-iosArm64Main-0.0.4.klib",
+          "url": "kourier-storage-iosarm64-0.0.4.klib",
+          "size": 38319,
+          "sha512": "8ff2926773276ad68f8cd63a1a2ca4144f097ac49760f85db21da708ce5359b0da299481e1b6e4d25dbea8b2d489ec637cb1df229fb835a1050490d9a89df4fc",
+          "sha256": "8842e875f0d1be4c8fd804f1cdf153c22275345470660a80a433ec52bba6df09",
+          "sha1": "76d5217cb09080811b829e25400d03a268a259b2",
+          "md5": "1d83bdd5677be82705818eddc32e36b4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kourier-storage-iosarm64-0.0.4-sources.jar",
+          "url": "kourier-storage-iosarm64-0.0.4-sources.jar",
+          "size": 9355,
+          "sha512": "83806009e1c1abd8e20bd23918a73cdccc346ed072ff5d7110e3141ac8725f75e4830389eb5f2638738a8dd45b83c07159c58a9ddba5a25142f38d3c6cd4e898",
+          "sha256": "b490fff167608f269178bb4729d9c91d75db15597361ad222c6b2aad1a474abb",
+          "sha1": "99d2842bfa517047c4009b2a5e5ae20708a8f7bc",
+          "md5": "fd0a19bf52052e14b5a0e76394180a11"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.4.1"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "coroutines-extensions",
+          "version": {
+            "requires": "2.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-storage-iosarm64-0.0.4-metadata.jar",
+          "url": "kourier-storage-iosarm64-0.0.4-metadata.jar",
+          "size": 2498,
+          "sha512": "ccc55b3b2da2aae03d1772d2e6f2c0fd46e124c1c1c3baf9bc5c016a2d562599207f4a54c97981aa2b8bff3b6130e21a3f2907bb6b01d280fea4195950ca0496",
+          "sha256": "27dae7f87dca6169fd8bcf08a8d26286191908bff31217eb0fa1bd83c6fd9521",
+          "sha1": "471dc78d0db9be44fe761eb4fbe7e1de00dceb7b",
+          "md5": "a76588aec3ef928ff02b2320bffffa26"
+        }
+      ]
+    }
+  ]
+}

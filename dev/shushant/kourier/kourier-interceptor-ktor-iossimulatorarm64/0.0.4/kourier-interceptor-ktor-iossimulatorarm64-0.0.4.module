@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kourier-interceptor-ktor/0.0.4/kourier-interceptor-ktor-0.0.4.module",
+    "group": "dev.shushant.kourier",
+    "module": "kourier-interceptor-ktor",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-interceptor-ktor-iosSimulatorArm64Main-0.0.4.klib",
+          "url": "kourier-interceptor-ktor-iossimulatorarm64-0.0.4.klib",
+          "size": 17268,
+          "sha512": "2335534222f33800c05e237cd52ce7d298e48b2fb61cbe77ebef466b999e6004514aac7dc2d0d3aafc4e238b59abf751693050b544340aab22461b172d5dde0d",
+          "sha256": "4f66c41cb80947f11a1e3400d44d0c00c9680be20bf03d43d72ae52f9b14298d",
+          "sha1": "ce5b3b94d9bf62947b36797511d046052701d0c8",
+          "md5": "4b11d380e149a7466adbfaab6f010a4e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kourier-interceptor-ktor-iossimulatorarm64-0.0.4-sources.jar",
+          "url": "kourier-interceptor-ktor-iossimulatorarm64-0.0.4-sources.jar",
+          "size": 3228,
+          "sha512": "9639b7d474cab70cd4954b0cc7ecd9c454f3039e28b4f3ac196fb59ba01c16a64874c971797baee44eac84fe99e6e2aa3974ae188f8a4d08922f6e2685577afd",
+          "sha256": "0595e810b2e6f4ba98887fdd087994579c8dfd94693312f1e935918f140b7783",
+          "sha1": "2a1d7fc515179e3345dc24107aed4c86e46713c1",
+          "md5": "e26035ce659c944eb79ebe4d2baa909a"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "dev.shushant.kourier",
+          "module": "kourier-core",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kourier-interceptor-ktor-iossimulatorarm64-0.0.4-metadata.jar",
+          "url": "kourier-interceptor-ktor-iossimulatorarm64-0.0.4-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}
