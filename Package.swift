@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Kourier",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v17)
     ],
     products: [
         .library(
@@ -30,8 +30,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "KourierIos",
-            url: "https://github.com/dev-shushant/kourier/releases/download/v0.0.1/KourierIos.xcframework.zip",
-            checksum: "955dd171d142477424c89d13fc391b2bc3cc166c88809d73c3256240161fe555"
+            url: "https://github.com/dev-shushant/kourier/releases/download/v0.0.2/KourierIos.xcframework.zip",
+            checksum: "4c6733e29e250b1ed661e7f64a705e08f7e80fa8b94fbbc833872e69dfa4cc7d"
         )
     ]
 )
